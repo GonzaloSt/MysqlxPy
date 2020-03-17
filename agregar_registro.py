@@ -1,8 +1,8 @@
 import MySQLdb
 
-mydb = MySQLdb.connect(host='35.237.244.166',
-        user='gonza',
-        passwd='1mecagoendios1',
+mydb = MySQLdb.connect(host='',
+        user='',
+        passwd='',
         db='sku')
 cursor = mydb.cursor()
 modelo = input ( "Por favor,ingrese modelo de su maquina: " )
