@@ -1,9 +1,9 @@
 import MySQLdb
 
-mydb = MySQLdb.connect(host='35.237.244.166',
-    user='gonza',
-    passwd='1mecagoendios1',
-    db='sku')
+mydb = MySQLdb.connect(host='',
+    user='',
+    passwd='',
+    db='')
 cursor = mydb.cursor()
 PU = input("Ingrese pickup : " )
 cursor.execute("""select * from sku where pu = %s""",(PU,))
